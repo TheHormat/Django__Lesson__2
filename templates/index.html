@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+
+
+{% block page__title %}
+Home Page
+{% endblock page__title %}
+
+{% block body %}
+
+
+<h1>Salam Millet</h1>
+<small>Salam</small>
+
+<a href="{% url 'about' %}">Mainly About Page</a>
+
+{% include 'include_page.html' %}
+
+{% comment %}
+<!-- <a href="{% url 'check-about' %}">Check About Page</a> -->
+{% endcomment %}
+
+
+{% endblock body %}

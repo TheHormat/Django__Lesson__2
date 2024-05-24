@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+    
+
+{% block page__title %}
+    About Page
+{% endblock page__title %}
+    
+
+{% block body %}
+<h1>Mainly About Page</h1>
+<a href="{% url 'home' %}">Home Page</a>
+{% include 'include_page.html' %}
+
+<!-- <a href="home.html"></a> -->
+{% endblock body %}
+    
